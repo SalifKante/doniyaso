@@ -1,0 +1,27 @@
+/* About.css */
+.crew-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.social-icons {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.crew-card:hover .social-icons {
+  display: block;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #007bff; /* Customize color */
+}
+
+.social-icons a:hover {
+  color: #0056b3; /* Customize hover color */
+}

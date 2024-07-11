@@ -1,0 +1,12 @@
+/* Services.css */
+.card-body .fa-3x {
+  color: #007bff;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.card-body .fa-3x:hover {
+  color: #0056b3;
+}

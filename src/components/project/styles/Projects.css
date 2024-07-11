@@ -1,0 +1,27 @@
+/* Projects.css */
+.modal .modal-content {
+  background-color: #6c757d; /* bg-secondary */
+  color: #fff;
+}
+
+.modal .modal-content img {
+  max-width: 100%;
+}
+
+.modal .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.modal .btn-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.card-body p {
+  color: #fff;
+}
+
+.card a:hover {
+  text-decoration: none;
+}

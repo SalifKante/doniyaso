@@ -1,0 +1,10 @@
+.details .text-container .list-group-item {
+  display: flex;
+  align-items: center;
+}
+.details .text-container .list-group-item i {
+  margin-right: 10px;
+}
+.details .image-container img {
+  width: 100%;
+}/*# sourceMappingURL=Book.css.map */

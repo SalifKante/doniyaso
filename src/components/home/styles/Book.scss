@@ -1,0 +1,22 @@
+.details {
+  .text-container {
+    h2 {
+      // Style for the heading
+    }
+    p {
+      // Style for the paragraph
+    }
+    .list-group-item {
+      display: flex;
+      align-items: center;
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+  .image-container {
+    img {
+      width: 100%; // Ensure the image fits the container
+    }
+  }
+}
