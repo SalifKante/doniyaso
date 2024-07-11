@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "service": "Service",
+    "project": "Project",
+    "galerie": "Gallery",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to Doniyaso"
+  },
+  "notFound": {
+    "message": "The page you're looking for does not exist."
+  }
+}
