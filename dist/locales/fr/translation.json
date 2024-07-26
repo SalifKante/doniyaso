@@ -12,5 +12,58 @@
   },
   "notFound": {
     "message": "La page que vous recherchez n'existe pas."
+  },
+  "header": {
+    "description": "Bienvenue à Doniyaso! Nous sommes une communauté dynamique de Data Scientists et d’ingénieurs informatiques maliens, unis par un objectif commun : innover, collaborer et stimuler le progrès technologique. Que vous soyez basé au Mali ou à l'étranger, Doniyaso est votre plateforme pour vous connecter, apprendre et grandir",
+    "slogan": "Connecter les Scientifiques des Données Maliens et les Ingénieurs Informatiques du monde entier",
+    "detail": "Plus de detail",
+    "contact": "Contactez-nous"
+  },
+  "intro": {
+    "title": "Innover, collaborer et grandir avec",
+    "description": "Notre mission est de créer un réseau de soutien qui responsabilise les professionnels maliens en science des données et en informatique. Notre objectif est de favoriser le partage des connaissances, le développement professionnel et les projets collaboratifs qui ont un impact positif."
+  },
+  "book": {
+    "title": "Sortie d'un nouveau livre",
+    "description": "Découvrez notre dernière publication, Intelligence machine en Afrique en 20 questions, créée par nos talentueux membres !",
+    "comment": "Créé par nos talentueux membres, ce livre plonge dans le monde fascinant de l'intelligence artificielle en Afrique à travers 20 questions perspicaces. Découvrez les défis, les opportunités et les perspectives innovantes qui façonnent l'avenir de l'IA sur le continent."
+  },
+  "download": {
+    "title": "Obtenez Votre Ebook Gratuit Maintenant",
+    "description": "Découvrez les secrets de l'intelligence artificielle en Afrique avec notre ebook complet. Obtenez des informations d'experts, explorez des perspectives innovantes et gardez une longueur d'avance dans le monde en évolution rapide de l'IA.",
+    "email": "Entrer votre email",
+    "button": "Télécharger"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle1": "Doniyaso Events - Conférence - Stage",
+    "subtitle2": "Grands moments à Doniyaso"
+  },
+  "about": {
+    "title": "Rencontrez notre équipe compétente, prête à répondre à tous vos besoins variés",
+    "button": "Rencontrer"
+  },
+  "service": {
+    "title": "Nos Services",
+    "description": "Notre mission est de créer un réseau de soutien qui responsabilise les professionnels maliens de la science des données et de l'informatique. Nous visons à favoriser le partage des connaissances, le développement professionnel et les projets collaboratifs qui ont un impact positif.",
+    "science": "Perspectives Scientifiques",
+    "cyber": "Sensibilisation à la Cybersécurité",
+    "industry": "Mises à Jour de l'Industrie",
+    "collaborate": "Réseautage Collaboratif",
+    "partner": "Possibilités de Partenariat",
+    "insigth": "Informations basées sur les données"
+  },
+  "contact": {
+    "title": "Contactez-nous pour plus information",
+    "name": "Entrer votre nom et prénom",
+    "email": "Entrer votre email",
+    "phone": "Entrer votre numéro de téléphone",
+    "message": "Entrer le message",
+    "submit": "Soumettre",
+    "place": "Notre emplacement",
+    "location": "Près du monument"
+  },
+  "footer": {
+    "rigth": "2023 Doniyaso - Tout droit reservé"
   }
 }

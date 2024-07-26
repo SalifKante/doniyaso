@@ -12,5 +12,58 @@
   },
   "notFound": {
     "message": "The page you're looking for does not exist."
+  },
+  "header": {
+    "description": "Welcome to Doniyaso! We are a vibrant community of Malian Data Scientists and IT engineers, united by a common goal: to innovate, collaborate, and drive technological progress. Whether you're based in Mali or abroad, Doniyaso is your platform to connect, learn, and grow",
+    "slogan": "Connecting Malian Data Scientists & IT Engineers Worldwide",
+    "detail": "More details",
+    "contact": "Contact-Us"
+  },
+  "intro": {
+    "title": "Innovate, Collaborate, and Grow with",
+    "description": "Our mission is to create a supportive network that empowers Malian professionals in data science and IT. We aim to foster knowledge sharing, professional development, and collaborative projects that make a positive impact."
+  },
+  "book": {
+    "title": "New Book Release",
+    "description": "Check out our latest publication, Intelligence machine en Afrique en 20 questions, created by our talented members!",
+    "comment": "Created by our talented members, this book delves into the fascinating world of machine intelligence in Africa through 20 insightful questions. Discover the challenges, opportunities, and innovative perspectives shaping the future of AI on the continent."
+  },
+  "download": {
+    "title": "Get Your Free Ebook Now",
+    "description": "Unlock the secrets of machine intelligence in Africa with our comprehensive ebook. Gain insights from experts, explore innovative perspectives, and stay ahead in the rapidly evolving world of AI.",
+    "email": "Enter your email",
+    "button": "Download"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle1": "Doniyaso Events - Conference - Internship",
+    "subtitle2": "Big Moments at Doniyaso"
+  },
+  "about": {
+    "title": "Meet our knowledgeable team, ready to meet all your varied needs",
+    "button": "Meet"
+  },
+  "service": {
+    "title": "Our Services",
+    "description": "Our mission is to create a supportive network that empowers Malian professionals in data science and IT. We aim to foster knowledge sharing, professional development, and collaborative projects that make a positive impact.",
+    "science": "Scientific Insights",
+    "cyber": "Cybersecurity Awareness",
+    "industry": "Industry Updates",
+    "collaborate": "Collaborative Networking",
+    "partner": "Partnership Opportunities",
+    "insigth": "Data-driven Insights"
+  },
+  "contact": {
+    "title": "Contact us for more information",
+    "name": "Enter your first and last name",
+    "email": "Enter your email",
+    "phone": "Enter your phone number",
+    "message": "Enter the message",
+    "submit": "Submit",
+    "place": "Our location",
+    "location": "Near the monument"
+  },
+  "footer": {
+    "rigth": "2023 Doniyaso - All rights reserved"
   }
 }
