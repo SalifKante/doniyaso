@@ -1,0 +1,14 @@
+/* Custom styles for Meet component */
+.get-quote {
+  padding: 3rem 0; /* Add padding to the top and bottom */
+  text-align: center;
+  background-color: #f8f9fa; /* Ensure a light background */
+}
+
+.get-quote .container {
+  padding: 0 1.5rem; /* Add some horizontal padding inside the container */
+}
+
+.get-quote .btn {
+  margin-top: 1.5rem; /* Add spacing above the button */
+}

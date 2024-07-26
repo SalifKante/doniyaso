@@ -1,6 +1,8 @@
 import "./styles/Download.scss"; // Import custom styles if necessary
+import { useTranslation } from "react-i18next";
 
 const Download = () => {
+  const { t } = useTranslation();
   return (
     <section className="download">
       <div className="container">
@@ -16,21 +18,18 @@ const Download = () => {
           </div>
           <div className="col-lg-7">
             <div className="text-container text-white d-flex flex-column justify-content-center h-100 mb-5">
-              <h2 className="fw-bold">Get Your Free Ebook Now</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                architecto ratione excepturi neque nobis maxime?
-              </p>
+              <h2 className="fw-bold">{t("download.title")}</h2>
+              <p>{t("download.description")}</p>
               {/* Form */}
               <form>
                 <div className="input-group mb-3">
                   <input
                     type="email"
                     className="form-control"
-                    placeholder="Email Address"
+                    placeholder={t("download.email")}
                   />
                   <button className="btn btn-primary text-white rounded-end">
-                    Download
+                    {t("download.button")}
                   </button>
                 </div>
               </form>

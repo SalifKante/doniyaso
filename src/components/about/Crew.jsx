@@ -1,4 +1,3 @@
-// Crew.js (assuming you're using React)
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/Crew.css"; // Your custom CSS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -74,15 +73,13 @@ const Crew = () => {
           <div className="col-md-4 mb-4">
             <div className="card crew-card">
               <img
-                src="./images/superviseur-general.JPG"
+                src="./images/about/tembine.jpg"
                 className="card-img-top profile"
                 alt="Dr. TEMBINE Hamidou"
               />
               <div className="card-body text-center">
                 <h5 className="card-title mt-2">Dr. TEMBINE Hamidou</h5>
-                <h6 className="card-subtitle mt-4 mb-2 text-muted">
-                  Profession - France
-                </h6>
+                <h6 className="card-subtitle mt-4 mb-2 text-muted">France</h6>
               </div>
               <div className="card-footer social-icons">
                 <a

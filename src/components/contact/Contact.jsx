@@ -1,6 +1,8 @@
 import { Container } from "react-bootstrap";
 import "./styles/Contact.scss";
+import { useTranslation } from "react-i18next";
 const Contact = () => {
+  const { t } = useTranslation();
   /*
   
   const [formData, setFormData] = useState({
@@ -51,14 +53,14 @@ const Contact = () => {
             </div>
             <div className="col-lg-6">
               <div className="text-container">
-                <h2>Contactez-nous pour plus information</h2>
+                <h2>{t("contact.title")}</h2>
 
                 <form id="form">
                   <div className="mb-3">
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Entrer votre nom et prénom"
+                      placeholder={t("contact.name")}
                       id="name"
                       name="name"
                     />
@@ -67,7 +69,7 @@ const Contact = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Entrer votre email"
+                      placeholder={t("contact.email")}
                       id="email"
                       name="email"
                     />
@@ -76,7 +78,7 @@ const Contact = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Entrer votre numéro de téléphone"
+                      placeholder={t("contact.phone")}
                       id="phone"
                       name="phone"
                     />
@@ -84,7 +86,7 @@ const Contact = () => {
                   <div className="mb-3">
                     <textarea
                       className="form-control"
-                      placeholder="Entrer le message"
+                      placeholder={t("contact.message")}
                       rows="8"
                       id="message"
                       name="message"
@@ -93,7 +95,7 @@ const Contact = () => {
                   <div className="d-grid gap-2">
                     <input
                       type="submit"
-                      value="Soumettre"
+                      value={t("contact.submit")}
                       className="btn btn-primary btn-block"
                       id="button"
                     />
@@ -110,18 +112,15 @@ const Contact = () => {
         <Container>
           <div className="row">
             <div className="col-10 offset-1">
-              <h2>Notre emplacement</h2>
+              <h2>{t("contact.place")}</h2>
               <p className="mb-4 fs-4">
-                Bamako, Mali | Hamdallaye ACI 2000 | Près du monument la
+                Bamako, Mali | Hamdallaye ACI 2000 | {t("contact.location")} la
                 &quot;Bougie&quot; | +223-76-49-49-05 | lezybko@gmail.com
               </p>
               <div className="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31145.922655423125!2d-8.061563653454836!3d12.632232491935108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe51cc5df81b5b11%3A0x572b6d6dbdd05f4!2sACI%202000%2C%20Bamako%2C%20Mali!5e0!3m2!1sen!2sus!4v1720153616639!5m2!1sen!2sus"
-                  width="600"
-                  height="450"
-                  style={{ border: 0 }}
-                  allowfullscreen=""
+                  allowFullScreen
                   loading="lazy"
                 ></iframe>
               </div>

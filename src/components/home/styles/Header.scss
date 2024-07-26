@@ -1,0 +1,17 @@
+.header {
+  .image-container {
+    .carousel {
+      img {
+        height: auto; // Adjust to maintain aspect ratio
+        max-height: 400px; // Adjust as needed
+        object-fit: cover; // Ensure images cover the container
+      }
+      .carousel-control-prev,
+      .carousel-control-next {
+        filter: invert(
+          100%
+        ); // Optional: for better visibility on dark backgrounds
+      }
+    }
+  }
+}

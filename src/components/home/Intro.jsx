@@ -1,5 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+
 const Intro = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* Introduction Section */}
@@ -8,15 +12,10 @@ const Intro = () => {
           <Row>
             <Col lg={{ span: 8, offset: 2 }} className="text-center">
               <h2>
-                Lorem ipsum dolor sit amet
-                <span className="text-secondary">DONIYASO</span>
+                {t("intro.title")}
+                <span className="text-secondary"> DONIYASO</span>
               </h2>
-              <p className="fs-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                quod, vel unde tempora doloribus possimus, error culpa labore
-                quae suscipit amet, sapiente nihil autem officia explicabo esse
-                tenetur eum mollitia!
-              </p>
+              <p className="fs-5">{t("intro.description")}</p>
             </Col>
           </Row>
         </Container>

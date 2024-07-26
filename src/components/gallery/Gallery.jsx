@@ -3,14 +3,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/Gallery.css";
 import Lightbox from "react-awesome-lightbox";
 import "react-awesome-lightbox/build/style.css";
+import { useTranslation } from "react-i18next";
 
 const images = [
-  { src: "images/home/image-2.jpg", title: "Doniyaso - Event" },
   { src: "images/home/image-3.jpg", title: "Doniyaso - Event" },
   { src: "images/home/image-4.jpg", title: "Doniyaso - Event" },
+  { src: "images/home/image-5.jpg", title: "Doniyaso - Event" },
+  { src: "images/home/image-2.jpg", title: "Doniyaso - Event" },
+  { src: "images/home/image-6.jpg", title: "Doniyaso - Event" },
+  { src: "images/home/image-7.jpg", title: "Doniyaso - Event" },
+  { src: "images/home/image-8.jpg", title: "Doniyaso - Event" },
+  { src: "images/home/image-9.jpg", title: "Doniyaso - Event" },
+  { src: "images/home/image-13.jpg", title: "Doniyaso - Event" },
+  { src: "images/home/image-14.jpg", title: "Doniyaso - Event" },
 ];
 
 const Gallery = () => {
+  const { t } = useTranslation();
+
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
@@ -21,12 +31,14 @@ const Gallery = () => {
 
   return (
     <section className="portfolio py-5 bg-light">
-      <div className="content-container mt-5 mt-md-5 mt-lg-5">
+      <div className="container mt-5 mt-md-5 mt-lg-5">
         <div className="text-center mb-5">
-          <h4 className="text-uppercase fw-bold text-primary">Gallery</h4>
+          <h4 className="text-uppercase fw-bold text-primary">
+            {t("gallery.title")}
+          </h4>
           <hr className="w-25 mx-auto" />
-          <h2 className="mb-4">Doniyaso Events - Conference - Internship</h2>
-          <p className="lead">Big Moments at Doniyaso</p>
+          <h2 className="mb-4">{t("gallery.subtitle1")}</h2>
+          <p className="lead">{t("gallery.subtitle2")}</p>
         </div>
         <div className="row">
           {images.map((image, index) => (
