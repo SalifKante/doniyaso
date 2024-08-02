@@ -11,7 +11,7 @@ const Crew = () => {
           <div className="col-md-4 mb-4">
             <div className="card crew-card">
               <img
-                src="./images/directeur-general.JPG"
+                src="./images/about/danioko-sidy.jpeg"
                 className="card-img-top profile"
                 alt="Dr. DANIOKO Sidy"
               />
